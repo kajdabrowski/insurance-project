@@ -1,0 +1,50 @@
+.topbar{
+    position: absolute;
+    width: 1002px;
+    height: 340px;
+    left: 219px;
+    top: 0px;
+    
+    background: #C7DDEA;
+
+
+}
+
+img{
+    position: absolute;
+    width: 173px;
+    height: 297px;
+    left: 933px;
+    top: 42px;
+
+
+}
+.main-nav{
+   
+    align-items:center;
+    justify-content: space-around;
+    height: 60px;
+    padding: 20px 0;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    top: 340px;
+
+}
+
+li {
+    display: inline-block;
+    width: 167px;
+    height: 57px;
+    text-align: center;
+    background: #e5e5e5;
+    padding: 20px;
+
+}
+
+.nav-bar-menu{
+   display: inline-block;;
+}
