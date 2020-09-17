@@ -1,11 +1,18 @@
+
+body{
+    max-width: 100%;
+background: white;
+}
 .topbar{
+
     position: absolute;
     width: 1002px;
     height: 340px;
     left: 219px;
     top: 0px;
-    
     background: #C7DDEA;
+
+   
 
 
 }
@@ -14,16 +21,17 @@ img{
     position: absolute;
     width: 173px;
     height: 297px;
-    left: 933px;
+    left: 733px;
     top: 42px;
 
 
 }
+
 .main-nav{
-   
+    display:flex;
     align-items:center;
     justify-content: space-around;
-    height: 60px;
+    height: 68px;
     padding: 20px 0;
     font-family: Fira Sans;
     font-style: normal;
@@ -31,20 +39,248 @@ img{
     font-size: 12px;
     line-height: 100%;
     letter-spacing: -0.02em;
-    top: 340px;
-
+    position: absolute;
+    left:250px;
 }
 
 li {
-    display: inline-block;
+    display: block;
     width: 167px;
-    height: 57px;
+    height: 68px;
     text-align: center;
-    background: #e5e5e5;
+    background: white;
     padding: 20px;
-
+    position: relative;
+   
 }
 
 .nav-bar-menu{
-   display: inline-block;;
+    position: relative;
+   
+    top:340px;
+    display: flex;
+    
+}
+
+.cbody{
+     position: absolute;
+     width: 1002px;
+     height: 544px;
+     left: 219px;
+     top: 408px;
+     background: #A9A19E;;
+}
+
+#ymail{
+
+ 
+    
+    width: 334px;
+    height: 40px;
+    position: relative;
+    left: 500px;
+    top: 100px;
+    background: #FEFEFE;
+    border-radius: 2px;
+}
+#ymsg{
+
+    position: relative;
+    width: 334px;
+    height: 166px;
+    left: 500px;
+    top: 130px;
+    background: #FEFEFE;
+    border-radius: 2px;
+}
+.lmail{
+    position: relative;
+    left: 500px;
+    top: 100px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    /* or 14px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    
+    color: #FFFFFF;
+    
+    opacity: 0.7;
+
+}
+
+.lmsg{
+    position: relative;
+    left: 500px;
+    top: 130px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    /* or 14px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    
+    color: #FFFFFF;
+    
+    opacity: 0.7;
+
+
+}
+.b{
+  
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+width: 131px;
+height: 39px;
+left: 923px;
+top: 832px;
+
+background: #FFFFFF;
+box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+border-radius: 100px;
+
+}
+.b1{
+text-align: center;
+
+
+}
+.htext{
+
+    position: absolute;
+    width: 314px;
+    height: 101px;
+    left: 350px;
+    top: 171px;
+    
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    /* or 45px */
+    
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+}
+.btext{
+    position: absolute;
+    width: 314px;
+    height: 140px;
+    left: 100px;
+    top: 100px;
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    /* or 45px */
+    
+    letter-spacing: -0.02em;
+    
+    color: #FFFFFF;
+
+
+}
+
+.cmap{
+
+    position: absolute;
+width: 1002px;
+height: 407px;
+left: 219px;
+top: 952px;
+
+background: url(img/map1.png);
+}
+.cfooter{
+    position: absolute;
+    width: 1002px;
+    height: 340px;
+    left: 219px;
+    top: 1343px;
+    background: #777574;
+}
+
+.visitus{
+
+    position: absolute;
+    width: 323px;
+    height: 206px;
+    left: 305px;
+    top: 997px;
+    background: #FAB131;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+
+
+}
+h1{
+
+    font-family: Frank Ruhl Libre;
+font-style: normal;
+font-weight: 900;
+font-size: 45px;
+line-height: 100%;
+/* identical to box height, or 45px */
+
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+position: absolute;
+left: 20px;
+}
+h2{
+    font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: rgba(255, 255, 255, 0.8);
+position: absolute;
+left: 22px;
+top:80px;
+}
+
+h3{
+    font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: rgba(255, 255, 255, 0.8);
+position: absolute;
+left: 20px;
+top:100px;
+}
+
+.point{
+
+   position: absolute;
+   left: 50px;
+   top:900px;
+
 }
