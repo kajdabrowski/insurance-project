@@ -87,6 +87,7 @@
     line-height: 100%;
     letter-spacing: -0.02em;
     margin-bottom: 20px;
+    margin-left: 105px;
     background: #C7DDEA;
 }
 
@@ -212,4 +213,35 @@ li {
 
 .box-04{
     background: #F17949;
+}
+
+ /*Strap grey*/
+
+.strap-grey {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1002px;
+    height: 68px;
+    background: #A9A19E;
+    
+}
+
+.strap-grey p {
+    display: flex;
+    justify-content: center;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+
+}
+
+.block-darkgrey {
+    width: 1002px;
+    height: 340px;
+    background: #777574;
+
 }
