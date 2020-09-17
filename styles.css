@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+#wrap{
+    width: 1002px;
+    margin: 0 auto; 
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    
+}
+
+
+.blue-box{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: spanrow2-end;
+
+}
+
+.blue-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    width: 501px;
+    height: 544px;
+    background: #C7DDEA;
+
+}
+
+.orange-box{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.orange-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    width: 501px;
+    height: 272px;
+    background: #F17949;
+
+}
+
+.yellow-box{
+    display: grid;
+    grid-column-start: 2;
+    grid-column: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.yellow-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    width: 501px;
+    height: 272px;
+    background: #FAB131;
+}
+
+h1{
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    color: #FFFFFF;
+
+}
+
+h3{
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+p{
+    width: 268px;
+    height: 103px;
+    margin:172 324;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+/* Nav-bar*/
+
+
+a{
+    color: #A9A19E;
+    text-decoration: none;
+}
+
+.main-nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    height: 60px;
+    padding: 20px 0;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+
+}
+
+li {
+    display: block;
+    width: 167px;
+    height: 57px;
+    text-align: center;
+    background: #e5e5e5;
+    padding: 20px;
+
+}
+
+.nav-bar-menu{
+    display: flex;
+}
+
+/*Delete the nav css, copy the html from C
+and code from the inside - li - to the 
+outside - nav class=".nav-bar-menubar"*/
