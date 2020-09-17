@@ -1,0 +1,106 @@
+.main-container {
+    width: 100%;
+}
+
+.main-gray {
+    background-color: gray;
+}
+
+body {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+    /* DET KAN BEHÖVAS TESTAS
+    width: 200px;
+    height: 400px;
+    object-fit: none;
+    object-position: 5px 10%;
+    border: 5px solid red;
+    */
+
+.child-img, .adult-img, .old-img {
+    background-color: white;
+    width: 256px;
+    text-align: center;
+    /*
+    display: flex;
+    */
+}
+
+.child-img > img , .adult-img > img, .old-img > img {
+    height: 200px;
+}
+
+.child-img > p , .adult-img > p, .old-img > p {
+    font-size: 20px;
+    color: green;
+    /*
+    align-content: flex-end;
+    */
+}
+
+.test-container {
+    /*
+    grid-row: 2/3;
+    z-index: 1;
+    */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+
+/*
+ img {
+    height: 100px;
+    max-height: 100px;
+}
+*/
+
+/* HÄR BÖRJAR STYLINGEN AV NEDRE HALVAN */
+
+
+.test-container2 {
+    /*
+    grid-row: 2/3;
+    z-index: 1;
+    */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    z-index: 1;
+    text-align: center;
+    
+
+    /*vertical-align: baseline;*/
+}
+
+.child-p, .adult-p, .old-p {
+    /*display: flex;
+    align-items: flex-end;*/
+    background-color: white;
+    width: 256px;
+    display: flex;
+}
+
+.child-p > p , .adult-p > p , .old-p > p {
+    /*display: flex;
+    align-items: flex-end;*/
+    display: flex;
+}
+
+.main-orange {
+    background-color: orange;
+}
+
+
+
+/* 
+!!!!!!!!!!!!!!!!!!!
+BRA TIPS INFÖR FRAMTIDEN:
+
+https://www.joomlashack.com/blog/tutorials/layering-items-within-css-grid/
+*/
