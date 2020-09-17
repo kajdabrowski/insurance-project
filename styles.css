@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     
+    
 }
 
 #wrap{
@@ -78,7 +79,7 @@
     background: #FAB131;
 }
 
-h1{
+.container h1{
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: 900;
@@ -86,9 +87,10 @@ h1{
     line-height: 100%;
     letter-spacing: -0.02em;
     margin-bottom: 20px;
+    background: #C7DDEA;
 }
 
-h2{
+.container h2{
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: 900;
@@ -97,7 +99,7 @@ h2{
 
 }
 
-h3{
+.container h3{
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
@@ -161,4 +163,53 @@ li {
 
  /*How it works*/
 
- 
+.howitworks-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.howitworks-container > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 334px;
+    height: 340px;
+}
+
+.howitworks-container > div > div {
+    height: 35px;
+
+}
+
+.howitworks-container h1{
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 100%;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.howitworks-container h3{
+   
+}
+
+.box-00{
+    background: #C7DDEA;
+}
+
+.box-01, box-03, box-05 {
+    background: #FFFFFF;
+}
+
+.box-02{
+    background: #EBEBEB;
+}
+
+
+.box-04{
+    background: #F17949;
+}
