@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     
-    
 }
 
 #wrap{
@@ -160,6 +159,6 @@ li {
     display: flex;
 }
 
-/*Delete the nav css, copy the html from C
-and code from the inside - li - to the 
-outside - nav class=".nav-bar-menubar"*/
+ /*How it works*/
+
+ 
