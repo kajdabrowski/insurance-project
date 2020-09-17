@@ -13,8 +13,6 @@ background: white;
     background: #C7DDEA;
 
    
-
-
 }
 
 img{
@@ -26,7 +24,10 @@ img{
 
 
 }
-
+a{
+    color: #A9A19E;
+    text-decoration: none;
+}
 .main-nav{
     display:flex;
     align-items:center;
