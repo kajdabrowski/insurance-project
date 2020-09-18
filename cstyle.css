@@ -27,7 +27,15 @@ img{
 a{
     color: #A9A19E;
     text-decoration: none;
+    
+
 }
+a:hover{
+
+    color:black;
+}
+
+
 .main-nav{
     display:flex;
     align-items:center;
@@ -82,7 +90,8 @@ li {
     left: 500px;
     top: 100px;
     background: #FEFEFE;
-    border-radius: 2px;
+    border-radius: 5px;
+    border-color: ivory;
 }
 #ymsg{
 
@@ -92,7 +101,9 @@ li {
     left: 500px;
     top: 130px;
     background: #FEFEFE;
-    border-radius: 2px;
+    border-radius: 5px;
+    border-color: ivory;
+   
 }
 .lmail{
     position: relative;
@@ -137,20 +148,10 @@ li {
 
 }
 .b{
-  
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10px;
-    line-height: 12px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.8);
-    position: absolute;
+position: absolute;
 width: 131px;
 height: 39px;
-left: 923px;
+left: 930px;
 top: 832px;
 
 background: #FFFFFF;
@@ -159,9 +160,21 @@ border-radius: 100px;
 
 }
 .b1{
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
 text-align: center;
-
-
+color: rgba(0, 0, 0, 0.8);
+position: relative;
+width: 131px;
+height: 39px;
+left: 30px;
+top: 0px;
 }
 .htext{
 
@@ -280,8 +293,9 @@ top:100px;
 
 .point{
 
-   position: absolute;
+   position: relative;
    left: 50px;
    top:900px;
+   background: url(img/mappoint.png);
 
 }
