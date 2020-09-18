@@ -725,6 +725,7 @@ header {
         font-weight: 600;
         font-size: 12px;
         line-height: 100%;
+        list-style-type: none;
     }
     main {
         position: unset;
