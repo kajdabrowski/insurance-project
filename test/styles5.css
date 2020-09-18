@@ -1,0 +1,23 @@
+body {
+    background-color: gray;
+}
+
+.container-main {
+    display: grid;
+    grid-template-areas:
+    'upper'
+    'pics'
+    'about';
+}
+
+.container-upper {
+    grid-area: upper;
+}
+
+.container-pics {
+    grid-area: pics;
+}
+
+.container-about {
+    grid-area: about;
+}
