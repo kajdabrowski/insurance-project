@@ -1,0 +1,171 @@
+/*body {
+    margin-left: 219px;
+    margin-right: 219px;
+}*/
+
+body {
+    background-color: #E5E5E5;
+}
+
+.container-main {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    width: 70vw;
+    /* height är till för testsyften i detta fall
+    behöver ändras till vw */
+    height: 1400px;
+    /*width: 100%;*/
+
+    border: 5px solid red;
+    background: linear-gradient(to bottom, #A9A19E 0%,#A9A19E 47%, #FAB131 47% ,#FAB131 100%); /* W3C */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-upper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /*justify-content: center;*/
+    justify-content: space-between;
+    
+    margin-left: 7vw;
+    margin-right: 9vww;
+    margin-top: 7vh;
+}
+
+.container-left {
+    background-color: inherit;
+    border: 2px solid red;
+    /*justify-self: flex-start;*/
+    width: 22vw;
+    /*margin-left: 8vw; */
+    /*justify-self: flex-start;
+    align-self: flex-start;*/
+}
+
+.container-right {
+    background-color: inherit;
+    border: 2px solid black;
+    /*justify-self: flex-end;*/
+    width: 20vw;
+    margin-right: 9vw;
+    margin-left: 12vw;
+    /*justify-self: flex-end;
+    align-self: flex-start;*/
+
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.container-pics {
+    width: 19vw;
+    height: 21vh;
+    border: 5px solid blue;
+    display: flex;
+    align-items: center;
+    /*justify-content: space-around;*/
+    /*align-self: center;*/
+    /*justify-self: center;*/
+    margin-bottom: 37vh;
+    margin-left: 15vw;
+}
+
+.container-pics img {
+    width: 256px;
+    height: 308px;
+    border: 5px solid blue;
+}
+
+.container-about {
+    height: 26vh;
+    width: 30vw;
+    /*justify-self: center;*/
+    align-self: flex-end;
+    /*justify-self: center;*/
+    margin-bottom: 7vh;
+    position: relative;
+    bottom: 100px;
+
+    right: 400px;
+
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: Frank Ruhl Libre;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: −0,02em;
+    text-align: left;
+    color: white;
+    text-align: center;
+}
+
+/* background: linear-gradient(to bottom, #A9A19E 0%,#A9A19E 50%,#000000 50%,#FAB131 50%,#FAB131 100%); /* W3C */ 
+
+
+/* LÄGGER MAN TILL FÖLJANDE KOD FÖR MOBILANPASSNING I BÖRJAN AV DETTA FIL, GER DET HELT ANDRA RESULTAT */
+
+@media only screen and (max-width: 500px) {
+    body {
+      background-color: black;
+      margin: 0;
+    }
+
+    * {
+        width: 100%;
+    }
+
+    .container-main * {
+        width: 100%;
+        /*background-color: red;*/
+    }
+    .container-main {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0;
+        background-color: red;
+  }
+
+  .container-upper {
+      flex-wrap: wrap;
+      flex: 1;
+  }
+
+  /*
+    .container-left {
+        flex: 0;
+    }
+
+    .container-right {
+        flex: 1;
+    }
+    */
+
+    .container-pics {
+        flex: 2;
+    }
+
+    .container-about {
+        order: 4;
+    }
+}
