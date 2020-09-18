@@ -927,3 +927,12 @@ header {
         width: 1000px;
     }
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    font-weight: 600;
+}
