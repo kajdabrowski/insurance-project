@@ -708,4 +708,53 @@ h1 {
       text-align: center;
   }
 
+  .howitworks-container {
+      width: 100vw;
+      display: grid;
+
+      grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+
+      grid-template-areas: 
+      'box00'
+      'box01'
+      'box02'
+      'box03'
+      'box04'
+      'box05';
+  
+     width: 100%;
+      height: auto; 
+  }
+
+  .howitworks-container > div {
+      width: 100%;
+  }
+
+  .box-00 {
+    grid-area: box00;
+    width: 100%;
+  }
+
+  .box-01 {
+    grid-area: box01;
+    width: 100vw;
+  }
+
+  .box-02 {
+    grid-area: box02;
+  }
+
+  .box-03 {
+    grid-area: box03;
+  }
+
+  .box-04 {
+    grid-area: box04;
+  }
+
+  .box-05 {
+    grid-area: box05;
+  }
+
 }
