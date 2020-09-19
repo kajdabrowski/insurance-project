@@ -303,12 +303,7 @@ li {
     font-weight: 500;
     font-size: 17px;
     line-height: 20px;
-
-
 }
-
-
-
 
 .block-darkgrey {
     width: 70vw;
@@ -453,7 +448,7 @@ h1 {
 .container-pics {
     display: flex;
     justify-content: space-evenly;
-    justify-content: center;
+    /*justify-content: center;*/
     flex-direction: row;
     grid-area: pics;
 }
@@ -466,6 +461,8 @@ h1 {
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+
+    text-align: center;
 }
 
 .pic-child {
@@ -527,6 +524,8 @@ h1 {
     left: 70px;
     background: #FAB131;
     border-radius: 4px;
+
+    text-align: center;
 }
 
 .pic-adult img {
@@ -576,6 +575,8 @@ h1 {
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+
+    text-align: center;
 }
 
 .pic-old {
@@ -667,9 +668,38 @@ h1 {
       flex-wrap: wrap;
   }
 
-  .container-pics img {
-      width: 100%;
+  .container-pics {
+      display: grid;
+
+      grid-template-areas: 
+    'one'
+    'two'
+    'three';
+
+    width: 100vw;
+    height: auto;
+
+    margin: 0 auto;
+    padding: 0 auto;
+
   }
+
+  .pic-one {
+    grid-area: one;
+  }
+
+  .pic-two {
+    grid-area: two;
+  }
+
+
+  .pic-three {
+    grid-area: three;
+  }
+
+  /*.container-pics img {
+      width: 100%;
+  }*/
 
   .container-about {
       width: 100%;
