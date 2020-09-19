@@ -223,6 +223,7 @@ li {
     justify-content: center;
     width: 23vw;
     height: 340px;
+    justify-content: space-between;
 }
 
 .howitworks-container > div > div {
