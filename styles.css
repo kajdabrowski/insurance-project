@@ -5,8 +5,8 @@
     
 }
 
-#wrap{
-    width: 1002px;
+.wrap{
+    width: 70vw;
     margin: 0 auto; 
 
     /* KANSKE */
@@ -36,11 +36,13 @@
     justify-content: center;
     align-items: center;
     border: 0px;
-    width: 501px;
+    width: 35vw;
     height: 544px;
     background: #C7DDEA;
 
 }
+
+
 
 .button {
     width: 131px;
@@ -56,6 +58,26 @@
     
 }
 
+.blue-card img{
+    width: 286px;
+    height: 279px;
+    left: 417px;
+    top: 265px;
+    background: img\family.png (family.png);
+}
+
+.header-card-1 h1{
+    display: flex;
+    width: 343px;
+    height: 101px;
+    background: #C7DDEA;
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    color: #000000;
+}
 
 
 .orange-box{
@@ -72,7 +94,7 @@
     justify-content: center;
     align-items: center;
     border: 0;
-    width: 501px;
+    width: 35vw;
     height: 272px;
     background: #F17949;
 
@@ -92,7 +114,7 @@
     justify-content: center;
     align-items: center;
     border: 0;
-    width: 501px;
+    width: 35vw;
     height: 272px;
     background: #FAB131;
 }
@@ -152,8 +174,8 @@ a{
 }
 
 .main-nav{
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
     justify-content: space-around;
     height: 60px;
     padding: 20px 0;
@@ -162,8 +184,7 @@ a{
     font-weight: 600;
     font-size: 12px;
     line-height: 100%;
-    letter-spacing: -0.02em;
-
+    background: #e5e5e5;
 }
 
 li {
@@ -178,6 +199,12 @@ li {
 
 .nav-bar-menu{
     display: flex;
+    margin: 200px;
+    pading: 200px;
+    padding-right: 80px;
+    width: 1080px;;
+    background: #e5e5e5;
+
 }
 
  /*How it works*/
@@ -193,7 +220,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 334px;
+    width: 23vw;
     height: 340px;
 }
 
@@ -260,7 +287,7 @@ li {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 1002px;
+    width: 70vw;
     height: 68px;
     background: #A9A19E;
 
@@ -276,10 +303,14 @@ li {
     font-size: 17px;
     line-height: 20px;
 
+
 }
 
+
+
+
 .block-darkgrey {
-    width: 1002px;
+    width: 70vw;
     height: 340px;
     background: #777574;
 
@@ -288,7 +319,13 @@ li {
 
 /* Kod från Alex */
 
+body {
+    background-color: white;
+}
+
+
 .container-main {
+    /* Dessa måste bort för Microsoft Edge */
     /*margin-left: 15vw;
     margin-right: 15vw;*/
 
@@ -305,8 +342,8 @@ li {
     /*width: 70vw;*/
     /* height är till för testsyften i detta fall
     behöver ändras till vw */
+
     height: 1400px;
-    /*width: 100%;*/
 
     border: 5px solid red;
     background: linear-gradient(to bottom, #A9A19E 0%,#A9A19E 47%, #FAB131 47% ,#FAB131 100%); /* W3C */
@@ -412,6 +449,11 @@ h1 {
       margin: 0;
     } */
 
+    .wrap {
+        width: 100%;
+        margin: 0;
+    }
+
 
     .container-main {
         width: 100%;
@@ -425,8 +467,10 @@ h1 {
   }
 
   .container-left {
-      width: 100%;
+      /* Litet "hack" för h1 texten inte ska ge ett scroll bar */
+      width: 400px;
   }
+
 
   .container-right {
       width: 100%;
