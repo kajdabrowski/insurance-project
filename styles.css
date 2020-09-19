@@ -454,12 +454,12 @@ h1 {
 }
 
 .pic-one {
-    width: 256px;
+    width: 236px;
     height: 308px;
     top: 1826px;
     margin: auto;
     background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: -10px 10px #FFFFFF, 10px 10px #FFFFFF;
     border-radius: 5px;
 
     text-align: center;
@@ -476,7 +476,8 @@ h1 {
 
 .pic-child img {
     height: 140px;
-    margin-left: 80px;
+    left: 43.09%;
+    /*margin-left: 80px;*/
     background: #C7DDEA;
 }
 
@@ -505,21 +506,22 @@ h1 {
 }
 
 .pic-two {
-    width: 256px;
+    width: 236px;
     height: 308px;
     top: 1800px;
     left: 50px;
     margin: auto;
     margin-top: 90px;
     background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: -10px 10px #FFFFFF, 10px 10px #FFFFFF;
     border-radius: 5px;
+
     text-align: center;
 }
 
 .pic-adult {
     width: 236px;
-    height: 150px;
+    height: 170px;
     top: 820px;
     left: 70px;
     background: #FAB131;
@@ -529,7 +531,7 @@ h1 {
 }
 
 .pic-adult img {
-    height: 130px;
+    height: 170px;
     left: 43.09%;
     background: #FAB131;
 }
@@ -566,14 +568,14 @@ h1 {
 }
 
 .pic-three {
-    width: 256px;
+    width: 236px;
     height: 308px;
     top: 2000px;
     left: 50px;
     margin: auto;
     margin-top: 90px;
     background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: -10px 10px #FFFFFF, 10px 10px #FFFFFF;
     border-radius: 5px;
 
     text-align: center;
@@ -679,9 +681,6 @@ h1 {
     width: 100vw;
     height: auto;
 
-    margin: 0 auto;
-    padding: 0 auto;
-
   }
 
   .pic-one {
@@ -691,7 +690,6 @@ h1 {
   .pic-two {
     grid-area: two;
   }
-
 
   .pic-three {
     grid-area: three;
