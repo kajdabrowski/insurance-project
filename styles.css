@@ -723,7 +723,7 @@ h1 {
       'box04'
       'box05';
   
-     width: 100%;
+     /*width: 100%;*/
       height: auto; 
   }
 
@@ -733,7 +733,7 @@ h1 {
 
   .box-00 {
     grid-area: box00;
-    width: 100%;
+    
   }
 
   .box-01 {
@@ -756,5 +756,49 @@ h1 {
   .box-05 {
     grid-area: box05;
   }
+
+
+  .container{
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+
+    grid-template-areas:
+    'cblue'
+    'corange'
+    'cyellow';
+}
+
+.blue-box {
+    grid-area: cblue;
+}
+
+.blue-card {
+    width: 100vw;
+}
+
+.orange-box {
+    grid-area: corange;
+}
+
+.orange-card {
+    width: 100vw;
+}
+
+.yellow-box {
+    grid-area: cyellow;
+}
+
+.yellow-card {
+    width: 100vw;
+}
+
+.block-darkgrey {
+    width: auto;
+}
+
+
 
 }
