@@ -239,6 +239,7 @@ li {
     line-height: 100%;
     color:rgba(0, 0, 0, 0.4);
     align-self: flex-start;
+    /*padding: 33px 33px 33px 33px;*/
 }
 
 .howitworks-container h3{
@@ -248,6 +249,7 @@ li {
     font-size: 17px;
     line-height: 20px;
     color: rgba(0, 0, 0, 0.7);
+    justify-self: flex-start;
 }
 
 .box-00 h1{
@@ -270,7 +272,7 @@ li {
     background: #C7DDEA;
 }
 
-.box-01, box-03, box-05 {
+.box-01, .box-03, .box-05 {
     background: #FFFFFF;
 }
 
@@ -313,6 +315,14 @@ li {
     background: #777574;
 
 }
+
+/*
+.filler {
+    width: 200px;
+    border: 1px solid black;
+    margin-right: 200px;
+}
+*/
 
 
 /* Kod från Alex */
