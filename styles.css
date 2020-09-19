@@ -795,8 +795,16 @@ h1 {
     width: 100vw;
 }
 
+.main-nav {
+    display: none;
+}
+
+.strap-grey {
+    width: 100%;
+}
+
 .block-darkgrey {
-    width: auto;
+    width: 100%;
 }
 
 
