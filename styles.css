@@ -42,6 +42,8 @@
 
 }
 
+
+
 .button {
     width: 131px;
     height: 39px;
@@ -56,6 +58,26 @@
     
 }
 
+.blue-card img{
+    width: 286px;
+    height: 279px;
+    left: 417px;
+    top: 265px;
+    background: img\family.png (family.png);
+}
+
+.header-card-1 h1{
+    display: flex;
+    width: 343px;
+    height: 101px;
+    background: #C7DDEA;
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    color: #000000;
+}
 
 
 .orange-box{
@@ -152,8 +174,8 @@ a{
 }
 
 .main-nav{
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
     justify-content: space-around;
     height: 60px;
     padding: 20px 0;
@@ -162,8 +184,7 @@ a{
     font-weight: 600;
     font-size: 12px;
     line-height: 100%;
-    letter-spacing: -0.02em;
-
+    background: #e5e5e5;
 }
 
 li {
@@ -178,6 +199,12 @@ li {
 
 .nav-bar-menu{
     display: flex;
+    margin: 200px;
+    pading: 200px;
+    padding-right: 80px;
+    width: 1080px;;
+    background: #e5e5e5;
+
 }
 
  /*How it works*/
@@ -276,7 +303,11 @@ li {
     font-size: 17px;
     line-height: 20px;
 
+
 }
+
+
+
 
 .block-darkgrey {
     width: 1002px;
