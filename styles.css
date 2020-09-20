@@ -668,28 +668,43 @@ p {
     .container-main {
         width: 100%;
         height: 100%;
-        display: flex;
-        flex-wrap: wrap;
+
+        /*display: flex;
+        flex-wrap: wrap; */
+
         margin: 0;
         /*background-color: red;*/
 
         background: linear-gradient(to bottom, #A9A19E 0%,#A9A19E 77%, #FAB131 75% ,#FAB131 100%); /* W3C */
   }
 
+  .container-upper {
+    display: grid;
+
+    grid-template-areas:
+    'left'
+    'right';
+    /*flex-wrap: wrap;*/
+}
+
+
   .container-left {
+
+    width: 100%;
+
+    grid-area: left;
       /* Litet "hack" för h1 texten inte ska ge ett scroll bar */
-      width: 400px;
+      /*width: 400px;*/
   }
 
 
   .container-right {
       width: 100%;
+
+      grid-area: right;
   }
 
-  .container-upper {
-      display: flex;
-      flex-wrap: wrap;
-  }
+  
 
   .container-pics {
       display: grid;
