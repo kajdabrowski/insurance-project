@@ -2,29 +2,24 @@
 body{
     max-width: 100%;
 background: white;
+padding: 0px 200px;
 }
 .topbar{
 
     position: absolute;
     width: 1002px;
     height: 340px;
-    left: 219px;
+    /* left: 219px; */
     top: 0px;
     background: #C7DDEA;
-
-
-   
-}
-
-img{
-    position: absolute;
-    width: 173px;
-    height: 297px;
-    left: 733px;
-    top: 42px;
   
-
 }
+.form{
+    float: right;
+    margin-right: 150px;
+}
+
+
 a{
     color: #A9A19E;
     text-decoration: none;
@@ -50,7 +45,7 @@ a:hover{
     line-height: 100%;
     letter-spacing: -0.02em;
     position: absolute;
-    left:250px;
+   /*  left:250px; */
 }
 
 li {
@@ -76,19 +71,17 @@ li {
      position: absolute;
      width: 1002px;
      height: 544px;
-     left: 219px;
+     /* left: 219px; */
      top: 408px;
      background: #A9A19E;;
 }
 
 #ymail{
 
- 
-    
     width: 334px;
     height: 40px;
     position: relative;
-    left: 500px;
+   /*  left: 500px; */
     top: 100px;
     background: #FEFEFE;
     border-radius: 5px;
@@ -99,7 +92,7 @@ li {
     position: relative;
     width: 334px;
     height: 166px;
-    left: 500px;
+    /* left: 500px; */
     top: 130px;
     background: #FEFEFE;
     border-radius: 5px;
@@ -108,7 +101,7 @@ li {
 }
 .lmail{
     position: relative;
-    left: 500px;
+  /*   left: 500px; */
     top: 100px;
     font-family: Fira Sans;
     font-style: normal;
@@ -129,7 +122,7 @@ li {
 
 .lmsg{
     position: relative;
-    left: 500px;
+  /*   left: 500px; */
     top: 130px;
     font-family: Fira Sans;
     font-style: normal;
@@ -152,8 +145,8 @@ li {
 position: absolute;
 width: 131px;
 height: 39px;
-left: 930px;
-top: 832px;
+left: 510px;
+top: 450px;
 
 background: #FFFFFF;
 box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
@@ -182,25 +175,21 @@ top: 0px;
     position: absolute;
     width: 314px;
     height: 101px;
-    left: 350px;
     top: 171px;
-    
+    margin-left: 300px;
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: 900;
     font-size: 45px;
     line-height: 100%;
-    /* or 45px */
-    
     letter-spacing: -0.02em;
-    
     color: #000000;
 }
 .btext{
     position: absolute;
     width: 314px;
     height: 140px;
-    left: 100px;
+    left: 100px; 
     top: 100px;
     font-family: Frank Ruhl Libre;
     font-style: normal;
@@ -218,18 +207,19 @@ top: 0px;
 
 .cmap{
 
-    position: absolute;
+position: absolute;
 width: 1002px;
 height: 407px;
-left: 219px;
+/* left: 219px; */
 top: 952px;
-background: url(img/map1.png);
+background: url(img/map1.png) no-repeat;
+background-size: cover;
 }
 .cfooter{
     position: absolute;
     width: 1002px;
     height: 340px;
-    left: 219px;
+    /* left: 219px; */
     top: 1343px;
     background: #777574;
 }
@@ -241,6 +231,7 @@ background: url(img/map1.png);
     height: 206px;
     left: 305px;
     top: 997px;
+    padding-left: 20px;
     background: #FAB131;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
 
@@ -248,7 +239,7 @@ background: url(img/map1.png);
 }
 h1{
 
-    font-family: Frank Ruhl Libre;
+font-family: Frank Ruhl Libre;
 font-style: normal;
 font-weight: 900;
 font-size: 45px;
@@ -259,10 +250,11 @@ letter-spacing: -0.02em;
 
 color: #FFFFFF;
 position: absolute;
-left: 20px;
+/* left: 20px; */
 }
 h2{
-    font-family: Fira Sans;
+
+font-family: Fira Sans;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -272,7 +264,7 @@ line-height: 24px;
 
 color: rgba(255, 255, 255, 0.8);
 position: absolute;
-left: 22px;
+/* left: 22px; */
 top:80px;
 }
 
@@ -284,15 +276,15 @@ h3{
     line-height: 24px;
     color: rgba(255, 255, 255, 0.8);
     position: absolute;
-    left: 20px;
+    /* left: 20px; */
     top:100px;
 }
 
 .point{
 
-   position: absolute;
-   left: 50px;
-   top:900px;
+   position: relative;
+   padding-left: 450px;
+   top:1150px;
  
 
 }
@@ -302,4 +294,10 @@ h3{
     display: flex;
     flex-direction: column-reverse;
  
+}
+.footermap{
+    float: right;;
+    margin-right: 120px;
+    margin-top: 42px;
+
 }
