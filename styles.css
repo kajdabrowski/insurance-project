@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     
-    margin-left: auto;
+    /*margin-left: auto; */
 }
 
 .wrap{
@@ -21,10 +21,6 @@
     
 }
 
-.f-pic {
-    margin-left: auto;
-    /*margin-right: 0px !important;*/
-}
 
 .blue-box{
     display: grid;
@@ -671,9 +667,7 @@ p {
         margin: 0;
     }
 
-    .f-pic {
-        margin-left: 0px;
-    }
+   
 
 
     .container-main {
