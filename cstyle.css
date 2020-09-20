@@ -207,14 +207,14 @@ top: 0px;
 
 .cmap{
 
-position: absolute;
-width: 1002px;
-height: 407px;
-/* left: 219px; */
-top: 952px;
-background: url(img/map1.png) no-repeat;
-background-size: cover;
-}
+    position: absolute;
+    width: 1002px;
+    height: 407px;
+    /* left: 219px; */
+    top: 952px;
+    background: url(img/map1.png) no-repeat;
+    background-size: cover;
+    }
 .cfooter{
     position: absolute;
     width: 1002px;

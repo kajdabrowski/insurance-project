@@ -43,6 +43,7 @@
 }
 
 
+
 .button {
     width: 131px;
     height: 39px;
@@ -258,7 +259,7 @@ li {
     text-align: center;
     letter-spacing: -0.02em;
     height: 101px;
-    left: 229px;
+    margin: 20px;
     top: 2023px;
     font-family: Frank Ruhl Libre;
     font-style: normal;
@@ -298,7 +299,7 @@ li {
 
 }
 
-.strap-grey p {
+.strap-grey p, h4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -307,7 +308,12 @@ li {
     font-weight: 500;
     font-size: 17px;
     line-height: 20px;
+    background: #A9A19E;
+    width: 70vw;
+    height: 10px;
 }
+
+
 
 .block-darkgrey {
     width: 70vw;
