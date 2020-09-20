@@ -219,11 +219,11 @@ top: 0px;
 .cmap{
 
     position: absolute;
-width: 1002px;
-height: 407px;
-left: 219px;
-top: 952px;
-background: url(img/map1.png);
+    width: 1002px;
+    height: 407px;
+    left: 219px;
+    top: 952px;
+    background: url(img/map1.png);
 }
 .cfooter{
     position: absolute;
