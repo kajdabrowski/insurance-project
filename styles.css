@@ -359,7 +359,6 @@ body {
 
     height: 1400px;
 
-    border: 5px solid red;
     background: linear-gradient(to bottom, #A9A19E 0%,#A9A19E 47%, #FAB131 47% ,#FAB131 100%); /* W3C */
 }
 
@@ -373,8 +372,6 @@ body {
     justify-content: space-around;
     align-items: center;
 
-    border: 5px solid pink;
-
     /* Behövs för griden */
     grid-area: upper;
 }
@@ -383,7 +380,6 @@ body {
     width: 22vw;
     height: 17vh;
 
-    border: 5px solid orange;
 }
 
 .container-right {
@@ -392,8 +388,6 @@ body {
 
     /*margin-right: 9vw;
     margin-left: 12vw;*/
-
-    border: 5px solid orangered;
 
     font-family: Fira Sans;
     font-size: 14px;
@@ -419,8 +413,7 @@ body {
     /*height: 26vh; */
     width: 30vw; 
 
-    justify-self: center;
-    border: 5px solid red;
+    justify-content: center;
 
     margin-left: 19vw;
     margin-right: 19vw;
@@ -435,7 +428,6 @@ body {
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0em;
-    text-align: center;
 }
 
 h1 {
@@ -449,6 +441,17 @@ h1 {
 
     color: white;
 
+}
+
+p {
+    justify-content: center;
+    align-items: center;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
 }
 
 /* JOBBAR MED BILDERNA I MITTEN AV SIDAN */
