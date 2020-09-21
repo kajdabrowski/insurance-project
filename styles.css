@@ -59,6 +59,19 @@
     
 }
 
+.button2 {
+    width: 131px;
+    height: 39px;
+    left: 324px;
+    top: 326px;
+    font-family: Fira Sans;
+    size: 10px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+}
+
 .blue-card img{
     width: 286px;
     height: 279px;
@@ -708,6 +721,9 @@ p {
     grid-area: left;
       /* Litet "hack" för h1 texten inte ska ge ett scroll bar */
       /*width: 400px;*/
+
+    text-align: left;
+    padding: 15px;
   }
 
 
@@ -752,10 +768,10 @@ p {
   }*/
 
   .container-about {
-      width: 100%;
+      /*width: 100%; */
       /*padding-left: 13vw;
       padding-right: 13vw;*/
-      text-align: center;
+      /*text-align: center;*/
   }
 
   .howitworks-container {
@@ -876,6 +892,10 @@ p {
 .yellow-card h3 {
     justify-content: space-around;
     width: 100%;
+}
+
+.button2 {
+    display: none;
 }
 
 }
