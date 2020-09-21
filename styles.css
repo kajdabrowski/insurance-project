@@ -138,7 +138,7 @@
     font-weight: 900;
     font-size: 32px;
     color: #FFFFFF;
-    margin-right: auto;
+    /*margin-right: auto;*/
 
 }
 
@@ -153,7 +153,7 @@
     text-align: center;
     letter-spacing: -0.02em;
     color: rgba(0, 0, 0, 0.5);
-    margin-right: auto;
+    /*margin-right: auto;*/
 
 }
 
@@ -323,6 +323,11 @@ li {
     height: 340px;
     background: #777574;
 
+}
+
+.f-pic {
+    text-align: right;
+    /*margin-right: 0px !important;*/
 }
 
 /*
@@ -846,6 +851,25 @@ p {
     width: 100%;
 }
 
+.container * {
+    /*margin: 0px;*/
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
 
+.f-pic {
+    margin-left: 0px;
+}
+
+.orange-card h3  {
+    justify-content: space-around;
+    width: 100%;
+}
+
+.yellow-card h3 {
+    justify-content: space-around;
+    width: 100%;
+}
 
 }
