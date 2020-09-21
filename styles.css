@@ -419,12 +419,15 @@ body {
 
 .container-about {
     /*height: 26vh; */
-    width: 30vw; 
+    /*width: 30vw; 
 
-    justify-content: center;
+    justify-content: center;*/
 
     margin-left: 19vw;
     margin-right: 19vw;
+
+    text-align: center;
+    justify-self: center;
 
     /* För griden */
     grid-area: about;
