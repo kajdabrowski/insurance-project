@@ -184,6 +184,7 @@ p{
 /* Nav-bar*/
 
 
+
 a{
     color: #A9A19E;
     text-decoration: none;
@@ -368,9 +369,9 @@ body {
     display: grid;
     /*grid-template-rows: repeat(3, 100%); */
     grid-template-areas: 
-    'upper'
-    'pics'
-    'about';
+    'upper upper upper upper upper upper'
+    'pics pics pics pics pics pics'
+    'about about about about about about';
 
     grid-gap: 150px;
 
@@ -401,14 +402,18 @@ body {
 }
 
 .container-left {
-    width: 22vw;
+    width: 25vw;
     height: 17vh;
+
+    padding-top: 8vh;
 
 }
 
 .container-right {
     width: 20vw;
     height: 17vh;
+
+    padding-top: 8vh;
 
     /*margin-right: 9vw;
     margin-left: 12vw;*/
@@ -423,16 +428,6 @@ body {
 }
 
 
-
-
-/*
-.container-pics img {
-    width: 256px;
-    height: 308px;
-    border: 5px solid blue;
-}
-*/
-
 .container-about {
     /*height: 26vh; */
     /*width: 30vw; 
@@ -442,7 +437,7 @@ body {
     margin-left: 19vw;
     margin-right: 19vw;
 
-    margin-bottom: 25%;
+    /*margin-bottom: 25%;*/
 
     text-align: center;
     justify-self: center;
@@ -457,6 +452,18 @@ body {
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0em;
+
+    margin-bottom: 100px;
+}
+
+.container-about > p {
+    width: 100%;
+    height: 60%;
+    
+}
+
+.container-about h1 {
+    padding-bottom: 25px;
 }
 
 h1 {
@@ -483,17 +490,6 @@ p {
     letter-spacing: 0em;
 }
 
-/* JOBBAR MED BILDERNA I MITTEN AV SIDAN */
-/* KAN HÄNDA ATT PX MÅSTE BYTAS TILL VW */
-
-/* .test-container-test {
-    position: absolute;
-    width: 375px;
-    height: 1580px;
-    left: 7px;
-    top: 1362px;
-    background: #A9A19E;
-} */
 
 .container-pics {
     display: flex;
@@ -503,10 +499,16 @@ p {
     grid-area: pics;
 }
 
+.container-pics p {
+    width: 240px;
+}
+
+
 .pic-one {
     width: 236px;
     height: 308px;
-    top: 1826px;
+   /* margin-top: 90px;*/
+
     margin: auto;
     background: #FFFFFF;
     box-shadow: -10px 10px #FFFFFF, 10px 10px #FFFFFF;
@@ -518,8 +520,6 @@ p {
 .pic-child {
     width: 236px;
     height: 170px;
-    top: 440px;
-    left: 70px;
     background: #C7DDEA;
     border-radius: 4px;
 }
@@ -532,8 +532,7 @@ p {
 }
 
 .pic-one h6 {
-    top: 600px;
-    left: 170px;
+    font-size: 16px;
     text-align: center;
     font-family: Frank Ruhl Libre;
     font-style: normal;
@@ -543,9 +542,6 @@ p {
 }
 
 .pic-one p {
-    top: 650px;
-    left: 61px;
-    right: 61px;
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
@@ -558,25 +554,19 @@ p {
 .pic-two {
     width: 236px;
     height: 308px;
-    top: 1800px;
-    left: 50px;
     margin: auto;
-    margin-top: 90px;
+    /*margin-top: 90px;*/
     background: #FFFFFF;
     box-shadow: -10px 10px #FFFFFF, 10px 10px #FFFFFF;
     border-radius: 5px;
-
     text-align: center;
 }
 
 .pic-adult {
     width: 236px;
     height: 170px;
-    top: 820px;
-    left: 70px;
     background: #FAB131;
     border-radius: 4px;
-
     text-align: center;
 }
 
@@ -588,9 +578,6 @@ p {
 
 .pic-two h6 {
     width: 198px;
-    height: 13px;
-    left: 160px;
-    top: 950px;
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: bold;
@@ -604,9 +591,6 @@ p {
 }
 
 .pic-two p {
-    top: 1000px;
-    left: 61px;
-    right: 61px;
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
@@ -620,10 +604,8 @@ p {
 .pic-three {
     width: 236px;
     height: 308px;
-    top: 2000px;
-    left: 50px;
     margin: auto;
-    margin-top: 90px;
+    /*margin-top: 90px;*/
     background: #FFFFFF;
     box-shadow: -10px 10px #FFFFFF, 10px 10px #FFFFFF;
     border-radius: 5px;
@@ -634,8 +616,6 @@ p {
 .pic-old {
     width: 236px;
     height: 170px;
-    top: 1200px;
-    left: 70px;
     background: #F17949;
     border-radius: 4px;
     text-align: center;
@@ -648,10 +628,7 @@ p {
 }
 
 .pic-three h6 {
-    top: 1370px;
     width: 198px;
-    height: 13px;
-    left: 157px;
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: bold;
@@ -665,8 +642,6 @@ p {
 
 .pic-three p {
     top: 1420px;
-    left: 61px;
-    right: 61px;
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
@@ -676,10 +651,6 @@ p {
     text-align: center;
     color: rgba(0, 0, 0, 0.4);
 }
-
-/* SLUT MED STYLINGEN AV BILDER I MITTEN AV SIDAN */
-
-
 
 
 /* MOBIL ANPASSAD */
@@ -695,9 +666,14 @@ p {
         margin: 0;
     }
 
-   
+    .container h1 {
+        margin-left: 0px;
+        text-align: left;
+        padding-left: 20px;
+        padding-top: 50px;
+    }
 
-
+  
     .container-main {
         width: 100%;
         height: 100%;
@@ -706,9 +682,7 @@ p {
         flex-wrap: wrap; */
 
         margin: 0;
-        /*background-color: red;*/
-
-        background: linear-gradient(to bottom, #A9A19E 0%,#A9A19E 85%, #FAB131 85% ,#FAB131 100%); /* W3C */
+        background: linear-gradient(to bottom, #A9A19E 0%,#A9A19E 75%, #FAB131 75% ,#FAB131 100%); /* W3C */
   }
 
   .container-upper {
@@ -723,14 +697,16 @@ p {
 
   .container-left {
 
-    width: 100%;
+    width: 50%;
+    height: 10vh;
 
     grid-area: left;
       /* Litet "hack" för h1 texten inte ska ge ett scroll bar */
       /*width: 400px;*/
 
     text-align: left;
-    padding: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
   }
 
 
@@ -739,8 +715,13 @@ p {
 
       grid-area: right;
 
-      text-align: center;
-      margin-left: 100px;
+      /*text-align: center;
+      margin-left: 100px; */
+  }
+
+  .container-right p {
+      width: 100vw;
+      padding: 15px;
   }
 
   
@@ -754,7 +735,7 @@ p {
     'three';
 
     width: 100vw;
-    height: auto;
+    height: 90vh;
 
   }
 
@@ -779,7 +760,23 @@ p {
       /*padding-left: 13vw;
       padding-right: 13vw;*/
       /*text-align: center;*/
+      width: 100vw;
+      height: 40vh;
+
+      margin-left: 0px;
+      margin-right: 0px;
+
+      margin-bottom: 0px;
+
+      justify-self: flex-start;
+
   }
+
+  .container-about > p {
+    width: 100vw;
+    height: 40%;
+    padding: 40px;
+}
 
   .howitworks-container {
       width: 100vw;
@@ -850,6 +847,11 @@ p {
 
 .blue-card {
     width: 100vw;
+}
+
+.blue-card p {
+    padding: 20px;
+    text-align: left;
 }
 
 .orange-box {
