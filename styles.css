@@ -715,6 +715,9 @@ p {
       width: 100%;
 
       grid-area: right;
+
+      text-align: center;
+      margin-left: 100px;
   }
 
   
