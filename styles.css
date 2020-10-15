@@ -694,7 +694,7 @@ p {
     'right';
 
     /* Följande kan vara viktig */
-    max-width: 479px !important; 
+    max-width: 481px !important; 
 }
 
 
@@ -717,7 +717,7 @@ p {
       grid-area: right;
 
       /* FÖLJANDE KAN VARA VIKTIG */
-      max-width: 479px !important;
+      max-width: 451px !important;
   }
 
   .container-right p {
