@@ -664,7 +664,7 @@ p {
     ##Screen = B/w 320px to 479px
   */
   
-  @media (min-width: 320px) and (max-width: 481px) {
+  @media (min-width: 320px) and (max-width: 500px) {
     .wrap {
         width: 100%;
         margin: 0;
@@ -694,7 +694,8 @@ p {
     'right';
 
     /* Följande kan vara viktig */
-    max-width: 481px !important; 
+    /* Körs enligt media query */
+    max-width: 500px !important; 
 }
 
 
@@ -717,7 +718,8 @@ p {
       grid-area: right;
 
       /* FÖLJANDE KAN VARA VIKTIG */
-      max-width: 451px !important;
+      /* Körs enligt media query */
+      max-width: 500px !important;
   }
 
   .container-right p {
