@@ -693,7 +693,7 @@ p {
     'left'
     'right';
 
-   /* max-width: 479px; */
+    max-width: 479px; 
 }
 
 
@@ -714,6 +714,8 @@ p {
       width: 100%;
 
       grid-area: right;
+
+      max-width: 479px;
   }
 
   .container-right p {
