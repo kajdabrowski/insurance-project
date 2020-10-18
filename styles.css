@@ -725,6 +725,9 @@ p {
   .container-right p {
       width: 100vw;
       padding: 15px;
+
+      /* LAGT TILL DETTA */
+      padding-top: 90px;
   }  
 
   .container-pics {
@@ -754,7 +757,9 @@ p {
 
   .container-about {
       width: 100vw;
-      height: 40vh;
+
+      /*KOMMENTERAT BORT DENNA */
+      /*height: 40vh; */
 
       margin-left: 0px;
       margin-right: 0px;
