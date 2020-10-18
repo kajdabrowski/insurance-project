@@ -677,6 +677,12 @@ p {
         padding-top: 50px;
     }
 
+    /* Lagt till detta - 2020-10-18 */
+    .container-about h1 {
+        padding-bottom: 50px;
+        padding-top: 80px;
+    }
+
   
     .container-main {
         width: 100%;
@@ -726,8 +732,8 @@ p {
       width: 100vw;
       padding: 15px;
 
-      /* LAGT TILL DETTA */
-      padding-top: 90px;
+      /* LAGT TILL DETTA  2020-10-18 */
+      padding-top: 110px;
   }  
 
   .container-pics {
@@ -740,6 +746,9 @@ p {
 
     width: 100vw;
     height: 90vh;
+
+    /* LAGT TILL FLJANDE 2020-10-18 */
+    padding-top: 20px;
 
   }
 
@@ -758,7 +767,7 @@ p {
   .container-about {
       width: 100vw;
 
-      /*KOMMENTERAT BORT DENNA */
+      /*KOMMENTERAT BORT DENNA 2020-10-18 */
       /*height: 40vh; */
 
       margin-left: 0px;
