@@ -689,7 +689,9 @@ p {
         height: 100%;
 
         margin: 0;
-        background: linear-gradient(to bottom, #A9A19E 0%,#A9A19E 75%, #FAB131 75% ,#FAB131 100%); /* W3C */
+
+        /* FÖRÄNDRINGAR UTFÖRDA 2020-10-19 */
+        background: linear-gradient(to bottom, #A9A19E 0%,#A9A19E 85%, #FAB131 85% ,#FAB131 100%); /* W3C */
   }
 
   .container-upper {
