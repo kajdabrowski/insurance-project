@@ -691,7 +691,7 @@ p {
         margin: 0;
 
         /* FÖRÄNDRINGAR UTFÖRDA 2020-10-19 */
-        background: linear-gradient(to bottom, #A9A19E 0%,#A9A19E 85%, #FAB131 85% ,#FAB131 100%); /* W3C */
+        background: linear-gradient(to bottom, #A9A19E 0%,#A9A19E 70%, #FAB131 70% ,#FAB131 100%); /* W3C */
   }
 
   .container-upper {
