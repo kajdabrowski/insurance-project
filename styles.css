@@ -72,7 +72,6 @@
     height: 279px;
     left: 417px;
     top: 265px;
-    background-color: img\family.png (family.png);
 }
 
 .header-card-1 h1{
@@ -520,15 +519,11 @@ p {
 }
 
 .pic-two h6 {
-    width: 198px;
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     color: rgba(0, 0, 0, 0.9);
 }
 
@@ -568,15 +563,12 @@ p {
 }
 
 .pic-three h6 {
-    width: 198px;
+
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     color: rgba(0, 0, 0, 0.9);
 }
 
@@ -590,6 +582,8 @@ p {
     text-align: center;
     color: rgba(0, 0, 0, 0.4);
 }
+
+
 
 
 /* MEDIA QUERIES FÖR OLIKA SKÄRMSTORLEKAR */
@@ -664,10 +658,16 @@ p {
     ##Screen = B/w 320px to 479px
   */
   
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 601px) {
+   html,body{
+       overflow-x: hidden;
+   }
+      
     .wrap {
         width: 100%;
         margin: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .container h1 {
@@ -687,7 +687,8 @@ p {
     .container-main {
         width: 100%;
         height: 100%;
-
+        margin-left: 0;
+        margin-right: 0;
         margin: 0;
 
         /* FÖRÄNDRINGAR UTFÖRDA 2020-10-19 */
@@ -735,7 +736,7 @@ p {
       padding: 15px;
 
       /* ÄNDRAT DETTA  2020-10-19 */
-      padding-top: 125px;
+      padding-top: 23vh;
   }  
 
   .container-pics {
@@ -749,7 +750,7 @@ p {
     width: 100vw;
 
     /* ÄNDRAT VÄRDE PÅ FÖLJANDE 2020-10-18 */
-    height: 140vh;
+    height: 200vh; /* david har ändrat*/
 
     /* LAGT TILL FLJANDE 2020-10-18 */
     padding-top: 30px;
